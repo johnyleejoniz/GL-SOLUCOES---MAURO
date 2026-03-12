@@ -43,9 +43,8 @@ export default function App() {
       <nav className="fixed w-full z-50 bg-primary text-secondary shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <div className="flex items-center gap-2">
-              <ShieldCheck className="h-8 w-8 text-secondary" />
-              <span className="font-bold text-2xl tracking-tight">GL Soluções</span>
+            <div className="flex items-center">
+              <img src="https://i.imgur.com/0M1yNP9.png" alt="GL Soluções" className="h-14 w-auto" referrerPolicy="no-referrer" />
             </div>
             
             {/* Desktop Menu */}
@@ -156,10 +155,16 @@ export default function App() {
       {/* Como Funciona */}
       <section id="como-funciona" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+            className="text-center max-w-3xl mx-auto mb-16"
+          >
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Como Funciona</h2>
             <p className="text-lg text-gray-600">Um processo simples e transparente para você alcançar seus objetivos com segurança e planejamento.</p>
-          </div>
+          </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -211,10 +216,16 @@ export default function App() {
       {/* Cartas de Crédito Disponíveis */}
       <section id="creditos" className="py-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+            className="text-center max-w-3xl mx-auto mb-16"
+          >
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Cartas de Crédito Disponíveis</h2>
             <p className="text-lg text-gray-700">Conheça nossas opções e escolha a que melhor se adapta ao seu planejamento financeiro.</p>
-          </div>
+          </motion.div>
 
           <div className="space-y-16">
             {/* Imóvel */}
@@ -339,7 +350,12 @@ export default function App() {
       <section id="vantagens" className="py-20 bg-primary text-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeIn}
+            >
               <h2 className="text-3xl md:text-4xl font-bold mb-8">Vantagens da GL Soluções</h2>
               <div className="space-y-6">
                 {[
@@ -364,7 +380,7 @@ export default function App() {
                   </motion.div>
                 ))}
               </div>
-            </div>
+            </motion.div>
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
@@ -381,7 +397,13 @@ export default function App() {
       {/* Simulador */}
       <section id="simulador" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-secondary rounded-3xl p-8 md:p-12 shadow-xl border border-secondary-dark/30">
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+            className="bg-secondary rounded-3xl p-8 md:p-12 shadow-xl border border-secondary-dark/30"
+          >
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-primary mb-4">Simulador de Crédito</h2>
               <p className="text-gray-700">Simule agora seu plano e dê o primeiro passo para a sua conquista.</p>
@@ -423,15 +445,21 @@ export default function App() {
                 Simular Agora <ArrowRight className="h-5 w-5" />
               </button>
             </form>
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* Sobre */}
       <section id="sobre" className="py-20 bg-secondary border-t border-secondary-dark/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
-            <ShieldCheck className="h-16 w-16 text-primary mx-auto" />
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+            className="max-w-3xl mx-auto text-center space-y-8"
+          >
+            <img src="https://i.imgur.com/0M1yNP9.png" alt="GL Soluções" className="h-24 w-auto mx-auto" referrerPolicy="no-referrer" />
             <h2 className="text-3xl font-bold text-primary">Sobre a GL Soluções</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               A GL Soluções atua na consultoria e gestão de cartas de crédito programadas, auxiliando clientes a conquistar bens e serviços através de planejamento financeiro estruturado.
@@ -439,7 +467,7 @@ export default function App() {
             <p className="text-lg text-gray-700 leading-relaxed">
               Nosso objetivo é oferecer orientação profissional e transparência em cada etapa do processo.
             </p>
-          </div>
+          </motion.div>
         </div>
       </section>
 
@@ -448,9 +476,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <div>
-              <div className="flex items-center gap-2 mb-6">
-                <ShieldCheck className="h-8 w-8 text-secondary" />
-                <span className="font-bold text-2xl text-secondary tracking-tight">GL Soluções</span>
+              <div className="flex items-center mb-6">
+                <img src="https://i.imgur.com/0M1yNP9.png" alt="GL Soluções" className="h-16 w-auto" referrerPolicy="no-referrer" />
               </div>
               <p className="text-sm leading-relaxed max-w-md">
                 Consultoria especializada em gestão de cartas de crédito programadas para aquisição de imóveis, automóveis e serviços.
