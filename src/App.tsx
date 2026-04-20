@@ -118,7 +118,7 @@ export default function App() {
               <a href="#creditos" className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-medium rounded-xl text-secondary bg-primary hover:bg-primary-dark transition-colors shadow-lg hover:shadow-xl">
                 Ver Créditos Disponíveis
               </a>
-              <a href="#simulador" className="inline-flex justify-center items-center px-8 py-4 border-2 border-primary text-base font-medium rounded-xl text-primary hover:bg-primary hover:text-secondary transition-colors">
+              <a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-8 py-4 border-2 border-primary text-base font-medium rounded-xl text-primary hover:bg-primary hover:text-secondary transition-colors">
                 Simular Crédito
               </a>
             </motion.div>
@@ -259,9 +259,9 @@ export default function App() {
                         <span className="font-semibold text-gray-900">R$ {card.parcel}</span>
                       </div>
                     </div>
-                    <button className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors">
+                    <a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors block text-center">
                       Solicitar Consultoria
-                    </button>
+                    </a>
                   </div>
                 ))}
               </div>
@@ -297,9 +297,9 @@ export default function App() {
                         <span className="font-semibold text-gray-900">R$ {card.parcel}</span>
                       </div>
                     </div>
-                    <button className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors">
+                    <a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors block text-center">
                       Consultar Disponibilidade
-                    </button>
+                    </a>
                   </div>
                 ))}
               </div>
@@ -335,9 +335,9 @@ export default function App() {
                         <span className="font-semibold text-gray-900">R$ {card.parcel}</span>
                       </div>
                     </div>
-                    <button className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors">
+                    <a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="w-full py-3 bg-primary/10 text-primary font-semibold rounded-xl hover:bg-primary hover:text-secondary transition-colors block text-center">
                       Falar com Consultor
-                    </button>
+                    </a>
                   </div>
                 ))}
               </div>
@@ -409,7 +409,7 @@ export default function App() {
               <p className="text-gray-700">Simule agora seu plano e dê o primeiro passo para a sua conquista.</p>
             </div>
             
-            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-6" onSubmit={(e) => { e.preventDefault(); window.open('https://wa.me/message/V7X4ZDXPKEYNN1', '_blank'); }}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="block text-sm font-semibold text-primary">Tipo de crédito</label>
