@@ -15,6 +15,7 @@ import {
   Target, 
   TrendingUp, 
   Check,
+  Zap,
   Menu,
   X
 } from 'lucide-react';
@@ -236,15 +237,15 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-primary">Crédito Programado para Imóvel</h3>
-                  <p className="text-gray-600 font-medium">Taxa adm: 18% | Prazo médio: 200 meses | Adesão: 10%</p>
+                  <p className="text-gray-600 font-medium">Taxa total: 23% | Prazo médio: 200 meses | Adesão: 40%</p>
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { credit: '120.000', adhesion: '12.000', parcel: '708' },
-                  { credit: '180.000', adhesion: '18.000', parcel: '1.062' },
-                  { credit: '250.000', adhesion: '25.000', parcel: '1.475' },
-                  { credit: '350.000', adhesion: '35.000', parcel: '2.065' },
+                  { credit: '132.500', adhesion: '53.000', parcel: '815 a 870' },
+                  { credit: '212.000', adhesion: '84.800', parcel: '1.300 a 1.400' },
+                  { credit: '389.000', adhesion: '155.600', parcel: '2.400 a 2.550' },
+                  { credit: '415.000', adhesion: '166.000', parcel: '2.550 a 2.750' },
                 ].map((card, i) => (
                   <div key={i} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                     <div className="text-sm text-gray-500 font-medium mb-1">Carta {i + 1}</div>
@@ -275,14 +276,15 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-primary">Crédito Programado para Automóvel</h3>
-                  <p className="text-gray-600 font-medium">Taxa adm: 14% | Prazo médio: 85 meses | Adesão: 15%</p>
+                  <p className="text-gray-600 font-medium">Taxa total: 18% | Prazo médio: 80 meses | Adesão: 40%</p>
                 </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { credit: '40.000', adhesion: '6.000', parcel: '536' },
-                  { credit: '60.000', adhesion: '9.000', parcel: '804' },
-                  { credit: '80.000', adhesion: '12.000', parcel: '1.072' },
+                  { credit: '65.000', adhesion: '26.000', parcel: '950 a 1.050' },
+                  { credit: '85.000', adhesion: '34.000', parcel: '1.250 a 1.350' },
+                  { credit: '120.000', adhesion: '48.000', parcel: '1.750 a 1.900' },
+                  { credit: '180.000', adhesion: '72.000', parcel: '2.600 a 2.800' },
                 ].map((card, i) => (
                   <div key={i} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                     <div className="text-sm text-gray-500 font-medium mb-1">Carta {i + 1}</div>
@@ -305,22 +307,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Serviços */}
+            {/* Eletro */}
             <div>
               <div className="flex items-center gap-4 mb-8 border-b border-primary/20 pb-4">
                 <div className="bg-primary p-3 rounded-xl text-secondary">
-                  <Briefcase className="h-8 w-8" />
+                  <Zap className="h-8 w-8" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-primary">Crédito Programado para Serviços</h3>
-                  <p className="text-gray-600 font-medium">Taxa adm: 24% | Prazo médio: 48 meses | Adesão: 20%</p>
+                  <h3 className="text-2xl font-bold text-primary">Crédito Programado para Eletro</h3>
+                  <p className="text-gray-600 font-medium">Taxa total: 24% | Prazo médio: 36 meses | Adesão: 45%</p>
                 </div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { credit: '10.000', adhesion: '2.000', parcel: '258' },
-                  { credit: '20.000', adhesion: '4.000', parcel: '516' },
-                  { credit: '30.000', adhesion: '6.000', parcel: '774' },
+                  { credit: '1.000', adhesion: '450', parcel: '34 a 38' },
+                  { credit: '3.000', adhesion: '1.350', parcel: '100 a 115' },
+                  { credit: '4.500', adhesion: '2.025', parcel: '150 a 170' },
+                  { credit: '7.000', adhesion: '3.150', parcel: '240 a 270' },
                 ].map((card, i) => (
                   <div key={i} className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100">
                     <div className="text-sm text-gray-500 font-medium mb-1">Carta {i + 1}</div>
