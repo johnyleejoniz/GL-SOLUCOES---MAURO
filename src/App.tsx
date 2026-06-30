@@ -77,7 +77,7 @@ export default function App() {
       `*Descrição:* ${formData.descricao}`;
       
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/message/V7X4ZDXPKEYNN1?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/message/NCCROSKDG3DMN1?text=${encodedMessage}`;
     
     setFormSubmitted(true);
     
@@ -311,7 +311,7 @@ export default function App() {
                 </p>
               </div>
               <a 
-                href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                href="https://smove.site/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center w-full px-5 py-3.5 bg-primary text-secondary font-bold rounded-xl hover:bg-primary-dark transition-all shadow-md group-hover:shadow-lg"
@@ -341,7 +341,7 @@ export default function App() {
                 </p>
               </div>
               <a 
-                href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                href="https://app.powercrm.com.br/login?error=true" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center w-full px-5 py-3.5 bg-primary text-secondary font-bold rounded-xl hover:bg-primary-dark transition-all shadow-md group-hover:shadow-lg"
@@ -371,7 +371,7 @@ export default function App() {
                 </p>
               </div>
               <a 
-                href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                href="https://www.smovereabilita.com.br/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center w-full px-5 py-3.5 bg-primary text-secondary font-bold rounded-xl hover:bg-primary-dark transition-all shadow-md group-hover:shadow-lg"
@@ -401,7 +401,7 @@ export default function App() {
                 </p>
               </div>
               <a 
-                href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                href="https://consorciotriangulo.com.br/representante/SMOVE" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center justify-center w-full px-5 py-3.5 bg-primary text-secondary font-bold rounded-xl hover:bg-primary-dark transition-all shadow-md group-hover:shadow-lg"
@@ -446,7 +446,7 @@ export default function App() {
             
             <div className="lg:w-5/12 w-full flex flex-col justify-center items-center lg:items-end">
               <a 
-                href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                href="https://www.prlsmovemobilidade.site/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-full text-center inline-flex justify-center items-center px-8 py-4 bg-white text-primary font-black text-lg rounded-xl hover:bg-secondary transition-all shadow-lg hover:-translate-y-0.5"
@@ -812,11 +812,11 @@ export default function App() {
             <div>
               <h4 className="text-secondary font-extrabold mb-6 uppercase text-sm tracking-wider">Empresas e Serviços</h4>
               <ul className="space-y-3.5 text-sm">
-                <li><a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🚖 S-MOVE Mobilidade <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
-                <li><a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🛡️ Proteção Veicular <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
-                <li><a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">💳 Reabilitação de Crédito <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
-                <li><a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🚗 Consórcios Integrados <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
-                <li><a href="https://wa.me/message/V7X4ZDXPKEYNN1" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">📈 Programa de Cotistas GL <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
+                <li><a href="https://smove.site/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🚖 S-MOVE Mobilidade <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
+                <li><a href="https://app.powercrm.com.br/login?error=true" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🛡️ Proteção Veicular <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
+                <li><a href="https://www.smovereabilita.com.br/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">💳 Reabilitação de Crédito <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
+                <li><a href="https://consorciotriangulo.com.br/representante/SMOVE" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">🚗 Consórcios Integrados <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
+                <li><a href="https://www.prlsmovemobilidade.site/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">📈 Programa de Cotistas GL <ExternalLink className="h-3.5 w-3.5 opacity-50" /></a></li>
               </ul>
             </div>
 
@@ -838,7 +838,7 @@ export default function App() {
               
               <div className="space-y-4">
                 <a 
-                  href="https://wa.me/message/V7X4ZDXPKEYNN1" 
+                  href="https://wa.me/message/NCCROSKDG3DMN1" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="flex items-center gap-3 p-3 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-all group"
