@@ -476,7 +476,7 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-primary/15 rounded-3xl transform -rotate-3 scale-105"></div>
               <img 
-                src="https://fvshysxuamdatyugdipx.supabase.co/storage/v1/object/public/video%20teste/GL%20SISTEMA%20COISAS/ChatGPT%20Image%2028%20de%20jun.%20de%202026,%2015_05_46.png" 
+                src="https://fvshysxuamdatyugdipx.supabase.co/storage/v1/object/public/video%20teste/hf_20260714_214631_baf7c99d-be58-4453-92bf-05fab0851aa4.png" 
                 alt="Mauro Lima - CEO de Operações Grupo GL" 
                 className="relative rounded-3xl shadow-2xl object-cover h-[500px] w-full border border-secondary-dark/40"
                 referrerPolicy="no-referrer"
